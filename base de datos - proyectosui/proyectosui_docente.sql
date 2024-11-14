@@ -29,6 +29,16 @@ CREATE TABLE `docente` (
   PRIMARY KEY (`id_docente`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `docente`
+--
+
+LOCK TABLES `docente` WRITE;
+/*!40000 ALTER TABLE `docente` DISABLE KEYS */;
+INSERT INTO `docente` VALUES (1,'Edwing','Walambo'),(2,'Derlis','Caballero'),(3,'Mabel','Arriola'),(4,'Ariel','Torres'),(5,'Alan','Dioses'),(6,'Gessica','Perez'),(7,'Ruth','Baez'),(8,'Veronica','Benitez'),(9,'Florencia','Estigarribia'),(10,'Laura','Mendoza');
+/*!40000 ALTER TABLE `docente` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -39,4 +49,4 @@ CREATE TABLE `docente` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-12 21:17:13
+-- Dump completed on 2024-11-14 19:35:10

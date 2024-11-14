@@ -35,6 +35,16 @@ CREATE TABLE `materia` (
   CONSTRAINT `materia_ibfk_2` FOREIGN KEY (`id_docente`) REFERENCES `docente` (`id_docente`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `materia`
+--
+
+LOCK TABLES `materia` WRITE;
+/*!40000 ALTER TABLE `materia` DISABLE KEYS */;
+INSERT INTO `materia` VALUES (1,1,1,'Matemáticas Avanzadas'),(2,1,2,'Programación I'),(3,2,3,'Estructuras de Datos'),(4,2,4,'Bases de Datos'),(5,3,5,'Redes de Computadoras');
+/*!40000 ALTER TABLE `materia` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -45,4 +55,4 @@ CREATE TABLE `materia` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-12 21:17:12
+-- Dump completed on 2024-11-14 19:35:10
